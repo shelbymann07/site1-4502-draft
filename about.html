@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>About</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('.menu-btn').click(function()
+			{
+				$('.responsive-menu').toggleClass('expand');
+				$('#test').toggleClass('test-motion');
+				$('#containera').toggleClass('container-motion');
+			});
+		});
+ </script>
+
+<body>
+	<div id="container">
+	<div id="shader"></div>
+	<a href="#menu" class="box-shadow-menu"></a>
+	<div class="mobile-nav">
+    <div class="menu-btn" id="menu-btn">
+	<div></div>
+	<span></span>
+	<span></span>
+	<span></span>
+     </div>
+ 
+     <div class="responsive-menu">
+        <ul>
+           <li><a href="home.html">Home</a></li>
+           <li><a href="text.html">Text Story: Columbia, Missouri: Scenes from Then and Now</a></li>
+           <li><a href="map.html">An Interactive Map Comparing 1949 and 2014</a></li>
+    	   <li><a href="quotes.html">CoMo Memories</a></li>
+    	   <li><a href="about.html">About From 1949 to 2014: Columbia Then and Now</a></li>
+        </ul>
+     </div>
+</div>
+		<div id="containera">
+		<div id="test">
+	
+	<div class="title"> 
+		<p>About From 1949 to 2014: Columbia Then and Now</p>
+	<p>**Credit information will go on this page.**</p>
+
+	</div><!--title-->
+
+		</div><!--test-->
+
+		</div><!--containera-->
+		
+	</div> <!--container-->	
+	<div id="footer">
+		<p>Copyright The Columbia Missourian</p>
+	</div><!--footer-->
+	
+</body>
+
+
+</html>

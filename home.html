@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('.menu-btn').click(function()
+			{
+				$('.responsive-menu').toggleClass('expand');
+				$('#test').toggleClass('test-motion');
+				$('#containera').toggleClass('container-motion');
+			});
+		});
+ </script>
+
+<body>
+	<div id="container">
+	<div id="shader"></div>
+	<!--<a href="#menu" class="box-shadow-menu"></a>-->
+
+<div class="mobile-nav">
+    <div class="menu-btn" id="menu-btn">
+	<div></div>
+	<span></span>
+	<span></span>
+	<span></span>
+     </div>
+ 
+     <div class="responsive-menu">
+        <ul>
+           <li><a href="home.html">Home</a></li>
+           <li><a href="text.html">Text Story: Columbia, Missouri: Scenes from Then and Now</a></li>
+           <li><a href="map.html">An Interactive Map Comparing 1949 and 2014</a></li>
+    	   <li><a href="quotes.html">CoMo Memories</a></li>
+    	   <li><a href="about.html">About From 1949 to 2014: Columbia Then and Now</a></li>
+        </ul>
+     </div>
+</div>
+	<div id="containera">
+		<div id="test">
+	<div class="col-4">
+	<div class="title"> 
+		<p>From 1949 to 2014: Columbia Then and Now</p>
+	</div><!--title-->
+	<div class="intro">
+		<p>Columbia is rich in history, and a vital aspect in documenting Columbia's historical journey has been through the development of photojournalism.</p>
+	</div>
+	<div class="author">
+		<p>By: Jillian Vondy</p>	
+	</div><!--author-->
+	</div><!--col 4-->
+		</div><!--test-->
+
+		<div class="col-1">
+		<div class="begbox">
+		<div class="angry"></div>
+			<div class="beginning">
+			<p>Photography has an evocative power to explain stories to others in a way that can be understood by all ages and literary levels. Even everyday scenes can take a deeper meaning when photographed. “It distills the reality into something that’s more palpable and which sometimes feels very confronting. And, we can’t dismiss it. We can’t just turn our eyes. We look at it and sometimes we see for the first time what’s really going on […] that’s the real strength of still photography,” said David Rees, a Missouri Photo Workshop Co-Director and head of the MU Photojournalism Sequence.</p>
+			</div><!--beginning-->
+			<div class="readmore">
+			<p><a href="text.html">Read more.</a></p>
+			</div><!--readmore-->
+		</div> <!--begbox-->
+		</div> <!--col-1-->
+		<div class="col-2">
+			<a href="http://bengal.missouri.edu/~sem5z6/site1/img/002_2014.jpg" target="_blank"><img src="img/002_2014.jpg" alt="Columns in 2014" class="column_img2"/></a>
+			<p class="columncaption2">2014</p>
+		</div><!--col-2-->
+		<div class="col-3">
+			<a href="http://bengal.missouri.edu/~sem5z6/site1/img/002_1949.jpg" target="_blank"><img src="img/002_1949.jpg" alt="Columns in 1949" class="column_img1"/></a>
+			<p class="columncaption1">1949</p>
+		</div><!--col-3-->
+	
+	</div><!--containera-->
+	
+	<div id="containerf">
+		<div id="footer">
+		<p>Copyright The Columbia Missourian</p>
+	</div><!--footer-->
+	</div><!--containerf-->
+	
+	</div> <!--container-->
+	
+</body>
+
+
+</html>
